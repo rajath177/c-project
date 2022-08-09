@@ -18,3 +18,5 @@ fibonacci.o:fibonacci.c
 	gcc -c fibonacci.c
 sort.c:sort.o
 	gcc -c sort.c
+clean:
+	ls -lrt
