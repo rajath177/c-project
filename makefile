@@ -19,4 +19,4 @@ fibonacci.o:fibonacci.c
 sort.c:sort.o
 	gcc -c sort.c
 clean:
-	ls -lrt
+	rm -rf *.o ABC.exe
